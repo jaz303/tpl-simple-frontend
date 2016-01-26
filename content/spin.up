@@ -1,0 +1,3 @@
+scss --watch scss/main.scss:assets/main.css
+watchify -o assets/bundle.js -d -t brfs lib/main.js
+static . -p 8080
