@@ -2,8 +2,11 @@
 
 A simple, barebones frontend project template for [template-anything](https://github.com/jaz303/template-anything).
 
-Project contains:
+Project uses:
 
   * SCSS
   * Browserify + brfs
-  * spin.up
+  * spinup
+  * Babel (optional)
+
+Assumes `scss`, `watchify` and `spinup` executables are all installed globally.
